@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-	int x = 3, y = 3, z = 2;
-	int*** arr = new int** [x];
-	for (int i = 0; i < x; i++)
+	int a = 3, y = 3, z = 2;
+	int*** arr = new int** [a];
+	for (int i = 0; i < a; i++)
 	{
 		arr[i] = new int* [y];
 		for (int j = 0; j < y; j++)
@@ -12,7 +12,7 @@ int main()
 			arr[i][j] = new int[z];
 		}
 	}
-	for (int i = 0; i < x; i++)
+	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < y; j++)
 		{
@@ -22,7 +22,7 @@ int main()
 			}
 		}
 	}
-	for (int i = 0; i < x; i++)
+	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < y; j++)
 		{
@@ -34,7 +34,7 @@ int main()
 		}
 		cout << endl;
 	}
-	for (int i = 0; i < x; i++)
+	for (int i = 0; i < a; i++)
 	{
 		for (int j = 0; j < y; j++)
 		{
