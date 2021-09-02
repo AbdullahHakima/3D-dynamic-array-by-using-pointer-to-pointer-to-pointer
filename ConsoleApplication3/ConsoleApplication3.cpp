@@ -44,4 +44,5 @@ int main()
 	}
 	delete[]arr;
 	arr = NULL;
+	return 0;
 }
